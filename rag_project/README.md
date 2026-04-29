@@ -1,4 +1,4 @@
-# 📚 RAG App with OpenAI + Gmail
+# 📚 RAG App with grokApi + Gmail
 
 A Retrieval-Augmented Generation (RAG) app that lets you ask questions about any `.txt` file using OpenAI, and optionally email the answer via Gmail.
 
