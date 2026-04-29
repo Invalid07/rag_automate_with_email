@@ -8,7 +8,7 @@ A Retrieval-Augmented Generation (RAG) app that lets you ask questions about any
 
 ```
 rag_project/
-├── main.py            # Main app
+├── main1.py            # Main app
 ├── gmail_tool.py      # Gmail OAuth2 helper
 ├── requirements.txt   # Dependencies
 ├── .env.example       # Rename to .env and fill in your keys
@@ -36,6 +36,7 @@ Then edit `.env` and add your real keys.
 - Create a project → Enable **Gmail API**
 - Create **OAuth 2.0 credentials** (Desktop App)
 - Download `credentials.json` and place it in this folder
+- OAuth2 it not working properly so i move only with smpt
 
 ### 4. Run the app
 ```bash
