@@ -44,20 +44,10 @@ pip install -r requirements.txt
 ## 📖 Usage
 
 ```python
-# Example usage
-from rag_automate import RAGAutomation
-
-# Initialize the system
-rag = RAGAutomation(knowledge_base_path="./documents")
-
-# Query the knowledge base
-results = rag.query("Your question here")
-
-# Get multiple options
-options = rag.get_multiple_options("Your question here")
-
-# Send results via email
-rag.send_email_results(email="user@example.com", results=results)
+when u ran the main or main1 file will open small window which give option to select the your file .
+then llm will process that file and generate answer .
+at last it will asked do you want send mail y/n .
+if yes then it will automatically send mail , where as all mail detail r store in email_config.
 ```
 
 ## 🔧 Configuration
