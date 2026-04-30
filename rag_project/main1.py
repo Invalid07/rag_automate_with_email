@@ -77,13 +77,16 @@ llm = ChatGroq(
 # ─────────────────────────────────────────
 # Step 7: Prompt Template
 # ─────────────────────────────────────────
-prompt = ChatPromptTemplate.from_template("""
-Answer the question based only on the context below.
+# prompt = ChatPromptTemplate.from_template("""
+# Answer the question based only on the context below.
+# with proper formatting and bullet points if needed.
+# give proper space between each solution:
 
-Context: {context}
+# Context: {context}
 
-Question: {question}
-""")
+# Question: {question}
+# """)
+from prompt import rag_prompt as prompt , DEFAULT_QUERY
 
 # ─────────────────────────────────────────
 # Step 8: RAG Chain
