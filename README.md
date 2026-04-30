@@ -68,7 +68,6 @@ SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 EMAIL_ADDRESS=your_email@gmail.com
 EMAIL_PASSWORD=your_app_password
-KNOWLEDGE_BASE_PATH=./documents
 LLM_API_KEY=your_api_key
 ```
 
@@ -76,17 +75,16 @@ LLM_API_KEY=your_api_key
 
 ```
 rag_automate_with_email/
+├── .gitignore                
+├── .env.example               
 ├── README.md
 ├── requirements.txt
-├── .env
+├── email_config.py
+├── gmail_tool.py
 ├── main.py
-├── rag_automate/
-│   ├── __init__.py
-│   ├── retriever.py
-│   ├── generator.py
-│   └── email_sender.py
-└── documents/
-    └── (your knowledge base files)
+├── main1.py
+├── prompt.py
+├── credentials.json.example   
 ```
 
 ## 🤝 Contributing
